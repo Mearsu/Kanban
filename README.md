@@ -36,11 +36,11 @@ e.g. `kb add`, `kb ad` and `kb a` do the exact same thing.
 
 - `kb` Prints all the tasks and notes for current task
 - `kb add TASK_NAME` adds task to the Back Burner
-- `kb back TASK_NAME` moves task to the Back Burner
-- `kb todo TASK_NAME` moves task to TODO
-- `kb doing TASK_NAME` moves task into Doing state, if other task is in Doing state, it will be changed to TODO
-- `kb waiting TASK_NAME` moves task to Awaiting changes state, moves first task from TODO to doing
-- `kb finished TASK_NAME` moves task to Finished, moves first task from TODO to doing
+- `kb back TASK_NUMBER` moves task to the Back Burner
+- `kb todo TASK_NUMBER` moves task to TODO
+- `kb doing TASK_NUMBER` moves task into Doing state, if other task is in Doing state, it will be changed to TODO
+- `kb waiting TASK_NUMBER` moves task to Awaiting changes state, moves first task from TODO to doing
+- `kb finished TASK_NUMBER` moves task to Finished, moves first task from TODO to doing
 - `kb purge` removes all tasks in Finished state
 - `kb note add` adds note to the current task
 - `kb note remove NUM` removes note number `NUM` from Task under Doing
