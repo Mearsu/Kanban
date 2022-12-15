@@ -1,17 +1,15 @@
 # My take on kanban
-Kanban is a scheduling. if you want to know more. Well. Internet :).
+Kanban is a scheduling system. if you want to know more. Well. Internet :).
 
 What's different?
 a kanban usually has 3 stages
 | TODO | DOING | Finished |
 |------|-------|----------|
-|      |       |          |
 
 For me that wasn't enough so I added two more.
 
 | Back Burner | TODO | DOING | Awaiting Changes | Finished |
 |-------------|------|-------|------------------|----------|
-|             |      |       |                  |          |
 - Back Burner - Things I'd like to do in near future. e.g. few days
 - TODO - Things to do after current task is done
 - Doing - one currently active task.
